@@ -2,15 +2,16 @@
   Header
 -----------------------*/
 
-@import "mixins";
+@import "mixins.scss";
 @import "./variable.scss";
 .header {
     background: darkcyan;
+    height: 130px;
 }
 
 .header__tops {
     background: $heading-color-2;
-    height: 30px;
+    height: 130px;
 }
 
 .header__tops__phone {
@@ -51,6 +52,10 @@
     padding: 35px 0;
     a {
         display: inline-block;
+        img{
+            width: 110px;
+            height: 110px;
+        }
     }
 }
 

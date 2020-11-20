@@ -4,26 +4,27 @@
 
 @import "mixins";
 @import "./variable.scss";
-.backgRound_ROW {
-    background: url("../img/pics/hamlo.png"), linear-gradient(115deg, #f7f4f4 0%, #ca6270a4 100%) !important;
-    background-size: auto !important;
-    background-repeat: no-repeat !important;
-    width: 600px !important;
-}
+// .backgRound_ROW {
+//     background: url("../img/pics/hamlo.png"), linear-gradient(115deg, #f7f4f4 0%, #ca6270a4 100%) !important;
+//     background-size: auto !important;
+//     background-repeat: no-repeat !important;
+//     width: 600px !important;
+// }
 
 .feature {
+    direction: rtl;
     background: #f7f7f7;
     position: relative;
     z-index: 1;
     padding-bottom: 55px;
-    &:after {
+    .feature-image{
         position: absolute;
-        left: 58%;
+        left: 80%;
         top: 45%;
         width: 605px;
         height: 50%;
-        background-image: url("../img/pics/hamlo.png");
         border-radius: 50%;
+        background-image: url(../img/1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         content: '';
@@ -34,8 +35,9 @@
 }
 
 .feature__text {
+    direction: rtl;
     .section-title {
-        text-align: left;
+        text-align: right;
         margin-bottom: 34px;
         h2 {
             margin-bottom: 0;
