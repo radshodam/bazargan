@@ -38,6 +38,7 @@
 @import "./variable.scss";
 html,
 body {
+    direction: rtl;
     height: 100%;
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
